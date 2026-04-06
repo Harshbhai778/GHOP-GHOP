@@ -11,13 +11,13 @@ CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
 # Admins, Channels & Users
-ADMINS = [12345789, 'admin123', 98765432]
-CHANNELS = [-10012345678, -100987654321, 'channelusername']
+ADMINS = [1743301710,7977515080,7735084635]
+CHANNELS = [-1003453786108]
 AUTH_USERS = []
 AUTH_CHANNEL = None
 
 # MongoDB information
-DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
+DATABASE_URI = "mongodb+srv://itzsiddhant321_db_user:QaqPa4G1ovhRr6d3@cluster0.re1tk0z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DATABASE_NAME = 'Telegram'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
